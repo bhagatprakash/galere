@@ -27,7 +27,7 @@ function BlogPost() {
             </p>
           </div>
 
-          <div className="relative inline-block md:w-1/2 mt-4 sm:mt-0 sm:ml-4">
+          <div className="relative inline-block md:w-1/2 mt-4 sm:mt-40px sm:ml-4">
             <img
               src={card}
               alt="image"
@@ -52,7 +52,7 @@ function BlogPost() {
             </p>
           </div>
 
-          <div className="relative inline-block md:w-1/2 mt-4 sm:mt-0 sm:ml-4">
+          <div className="relative inline-block md:w-1/2 mt-4 sm:mt-40px sm:ml-4">
             <img
               src={card1}
               alt="image"

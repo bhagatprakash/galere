@@ -2,7 +2,6 @@ import React from "react";
 import place from "../../assest/images/place-1.jpg";
 import place1 from "../../assest/images/place-2.jpg";
 import place2 from "../../assest/images/place-3.jpg";
-
 function Place() {
   return (
     <div className="max-w-[1320px] mx-auto ">
@@ -22,10 +21,9 @@ function Place() {
             <img
               src={place}
               alt="bannerImage"
-              className="lg:rounded-full lg:max-w-[350px] max-w-[800px] h-auto rounded-none object-cover"
+              className="lg:rounded-full lg:max-w-[350px] w-full sm:h-[400px] md:w-[900px] md:h-[500px]  lg:h-auto rounded-lg object-fit"
             />
           </div>
-
           <div className="md:col-span-2 my-10 flex flex-col justify-center">
             <h1 className="text-[30px] font-bold my-5 text-left sm:text-center lg:text-left">
               Real Estate Boom in The Last 10 Years
@@ -47,12 +45,10 @@ function Place() {
           </div>
         </div>
       </div>
-
       {/* card-2  */}
       <div className="bg-accent/20">
-        <div className="max-w-[1320px] grid grid-cols-1 md:grid-cols-1 md:text-center md:justify-items-center grid-row-reverse lg:grid-cols-3 py-5 px-5 sm:px-12 gap-5">
+        <div className="max-w-[1320px] grid grid-cols-1 md:grid-cols-1 md:text-center md:justify-items-center  lg:grid-cols-3 py-5 px-5 sm:px-12 gap-5">
           {/* image */}
-
           <div className="md:col-span-2 my-10 flex flex-col justify-center">
             <h1 className="text-[30px] font-bold my-5 text-left sm:text-center lg:text-left">
               The Perfect Lifestyle for You
@@ -72,18 +68,16 @@ function Place() {
               consequat.
             </p>
           </div>
-          <div className="flex justify-center">
+          <div className="flex justify-center lg:order-last order-first">
             <img
               src={place1}
               alt="bannerImage"
-              className="lg:rounded-full lg:max-w-[350px] max-w-[800px] h-auto rounded-none object-cover"
+              className="lg:rounded-full lg:max-w-[350px] w-full sm:h-[400px] md:h-[500px] md:w-[900px] lg:h-auto rounded-lg object-fit"
             />
           </div>
         </div>
       </div>
-
       {/* card-3  */}
-
       <div className="bg-accent/20">
         <div className="max-w-[1320px] grid grid-cols-1 md:grid-cols-1 md:text-center md:justify-items-center lg:grid-cols-3 py-5 px-5 sm:px-12 gap-5">
           {/* image */}
@@ -91,10 +85,9 @@ function Place() {
             <img
               src={place2}
               alt="bannerImage"
-              className="lg:rounded-full lg:max-w-[350px] max-w-[800px] h-auto rounded-none object-cover"
+              className="lg:rounded-full lg:max-w-[350px] w-full sm:h-[400px] md:h-[500px] md:w-[900px] lg:h-auto rounded-lg object-fit"
             />
           </div>
-
           <div className="md:col-span-2 my-10 flex flex-col justify-center">
             <h1 className="text-[30px] font-bold my-5 text-left sm:text-center lg:text-left">
               Real Estate Boom in The Last 10 Years
@@ -119,5 +112,4 @@ function Place() {
     </div>
   );
 }
-
 export default Place;

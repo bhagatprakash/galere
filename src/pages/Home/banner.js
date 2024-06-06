@@ -16,6 +16,7 @@ function Banner() {
           hot tropics of Galera. We do it all from residence permits to property
           management.
         </p>
+
         <div className="flex items-center mt-4  lg:mt-6">
           <input
             type="text"
@@ -27,15 +28,14 @@ function Banner() {
           </button>
         </div>
       </div>
-      {/* h-full w-full lg:w-[500px] flex justify-center lg:justify-end mt-8 lg:mt-0 */}
-      {/* bg-no-repeat bg-left-bottom bg-contain rounded-full */}
-      <div className="md:w-full  lg:w-[500px]  flex justify-center lg:justify-end">
+
+      <div className="flex justify-center lg:justify-end  ">
+        {/* md:w-full */}
         <img
           src={BannerImage}
           alt="bannerImage"
-          className="lg:rounded-full lg:max-w-[350px] max-w-[800px] h-auto rounded-none object-cover"
+          className="lg:rounded-full lg:max-w-[350px] w-full sm:h-[400px] md:w-[900px] md:h-[500px]  lg:h-auto rounded-lg object-fit"
         />
-        {/* lg:rounded-full w-full h-[350px] sm:h-[500px] sm:rounded-lg object-cover  */}
       </div>
     </div>
   );

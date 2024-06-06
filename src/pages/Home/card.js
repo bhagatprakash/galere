@@ -17,14 +17,14 @@ function Cards() {
         </h1>
       </div>
       <div className="bg-accent/20">
-        <div className="max-w-[1320px] grid grid-cols-1 gap-6 sm:text-center sm:grid-cols-2 lg:grid-cols-3 px-4 sm:px-12">
+        <div className="max-w-[1320px] grid grid-cols-1 gap-6 sm:text-center md:grid-cols-2 lg:grid-cols-3 px-4 sm:px-12">
           {/* card-1  */}
           <div className="my-6  rounded-lg ">
-            <div className="h-[225px] overflow-hidden relative rounded-lg">
+            <div className="lg:h-[225px]  h-[350px] overflow-hidden relative rounded-lg">
               <img
                 src={card}
                 alt="card"
-                className="w-full h-full object-cover hover:scale-125 duration-1000 rounded-t-lg"
+                className="w-full h-full object-cover hover:scale-125 duration-1000 rounded-t-lg content-fit"
                 style={{ objectFit: "cover" }}
               />
               <span className="absolute top-0 right-0 bg-gray-500 rounded-[10px] opacity-80 m-2 p-2 text-[15px] font-semibold text-white">
@@ -60,7 +60,7 @@ function Cards() {
           </div>
           {/* card-2  */}
           <div className="my-6  rounded-lg ">
-            <div className="h-[225px] overflow-hidden relative rounded-lg">
+            <div className="lg:h-[225px]  h-[350px] overflow-hidden relative rounded-lg">
               <img
                 src={card1}
                 alt="card"
@@ -100,7 +100,7 @@ function Cards() {
           </div>
           {/* card-3  */}
           <div className="my-6  rounded-lg ">
-            <div className="h-[225px] overflow-hidden relative rounded-t-lg">
+            <div className="lg:h-[225px]  h-[350px] overflow-hidden relative rounded-t-lg">
               <img
                 src={card3}
                 alt="card"
@@ -140,7 +140,7 @@ function Cards() {
           </div>
           {/* card-4  */}
           <div className="my-6  rounded-lg ">
-            <div className="h-[225px] overflow-hidden relative rounded-t-lg">
+            <div className="lg:h-[225px]  h-[350px] overflow-hidden relative rounded-t-lg">
               <img
                 src={card2}
                 alt="card"
@@ -180,7 +180,7 @@ function Cards() {
           </div>
           {/* card-5  */}
           <div className="my-6  rounded-lg ">
-            <div className="h-[225px] overflow-hidden relative rounded-t-lg">
+            <div className="lg:h-[225px]  h-[350px] overflow-hidden relative rounded-t-lg">
               <img
                 src={card4}
                 alt="card"
@@ -220,7 +220,7 @@ function Cards() {
           </div>
           {/* card-6  */}
           <div className="my-6  rounded-lg ">
-            <div className="h-[225px] overflow-hidden relative rounded-t-lg">
+            <div className="lg:h-[225px]  h-[350px] overflow-hidden relative rounded-t-lg">
               <img
                 src={card}
                 alt="card"

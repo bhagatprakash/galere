@@ -22,14 +22,13 @@ const testimonials = [
     rating: 5,
   },
 ];
-
 function Testimonials() {
   const settings = {
     dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 0,
+    slidesToScroll: 1,
     arrows: true,
     prevArrow: (
       <button className="slick-prev bg-black text-white p-2 rounded-full shadow-md ">
@@ -53,10 +52,10 @@ function Testimonials() {
   return (
     <div className="my-20 max-w-[1320px] mx-auto">
       <div className="bg-accent/20">
-        <div className="flex flex-col mx-auto md:flex-row  py-5 sm:py-0">
-          <div className="    w-full">
-            <div className="flex flex-row  mx-auto gap-5 mb-5">
-              {/* image  */}
+        <div className="flex flex-col md:flex-row  py-5 sm:py-0 justify-center items-center">
+          <div>
+            {/* image  */}
+            <div className="flex flex-row  gap-5 mb-5">
               <div className="bg-blue-500 rounded-[30px] w-full sm:w-[150px] h-[150px] flex items-center justify-center overflow-hidden">
                 <img src={profile} alt="Testimonials" className="h-[90%]" />
               </div>
@@ -81,8 +80,7 @@ function Testimonials() {
               </div>
             </div>
           </div>
-
-          <div className="relative md:w-2/3 mt-4 sm:mt-0 sm:ml-4">
+          <div className="relative md:w-2/3 w-full mt-4 sm:mt-0 sm:ml-4">
             <Slider {...settings}>
               {testimonials.map((testimonial, index) => (
                 <div key={index} className="px-2 sm:px-4">
@@ -115,5 +113,4 @@ function Testimonials() {
     </div>
   );
 }
-
 export default Testimonials;
