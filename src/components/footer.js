@@ -7,7 +7,7 @@ function Footer() {
       <div className="mx-auto max-w-[1320px]">
         <div className="flex flex-col mx-auto sm:flex-row  justify-between">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 text-center md:text-left my-10 px-5 gap-6 ">
-            <div className="cursor-pointer text-white">
+            <div className="cursor-pointer text-white mx-auto ">
               <img
                 src={headerImage}
                 alt="blog img"
@@ -25,10 +25,10 @@ function Footer() {
               </div>
             </div>
 
-            <div className="cursor-pointer text-white"></div>
-            <div className="cursor-pointer text-white"></div>
+            <div className="cursor-pointer text-white md:items-center md:hidden lg:block"></div>
+            <div className="cursor-pointer text-white  lg:block"></div>
 
-            <div className="cursor-pointer ">
+            <div className="cursor-pointer md:ml-[80px] ">
               <h1 className="text-[20px] font-semibold my-5">Menu</h1>
               <p className="text-[17px] text-gray-600 py-1">Home</p>
               <p className="text-[17px] text-gray-600 py-1">About</p>

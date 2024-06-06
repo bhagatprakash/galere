@@ -22,7 +22,7 @@ function Place() {
             <img
               src={place}
               alt="bannerImage"
-              className="rounded-full w-full max-w-[350px] h-[500px] object-cover"
+              className="lg:rounded-full lg:max-w-[350px] max-w-[800px] h-auto rounded-none object-cover"
             />
           </div>
 
@@ -50,7 +50,7 @@ function Place() {
 
       {/* card-2  */}
       <div className="bg-accent/20">
-        <div className="max-w-[1320px] grid grid-cols-1 md:grid-cols-1 md:text-center md:justify-items-center lg:grid-cols-3 py-5 px-5 sm:px-12 gap-5">
+        <div className="max-w-[1320px] grid grid-cols-1 md:grid-cols-1 md:text-center md:justify-items-center grid-row-reverse lg:grid-cols-3 py-5 px-5 sm:px-12 gap-5">
           {/* image */}
 
           <div className="md:col-span-2 my-10 flex flex-col justify-center">
@@ -72,11 +72,11 @@ function Place() {
               consequat.
             </p>
           </div>
-          <div className="flex justify-center md:col-span-1">
+          <div className="flex justify-center">
             <img
               src={place1}
               alt="bannerImage"
-              className="rounded-full w-full max-w-[350px] h-[500px] object-cover"
+              className="lg:rounded-full lg:max-w-[350px] max-w-[800px] h-auto rounded-none object-cover"
             />
           </div>
         </div>
@@ -91,7 +91,7 @@ function Place() {
             <img
               src={place2}
               alt="bannerImage"
-              className="rounded-full w-full max-w-[350px] h-[500px] object-cover"
+              className="lg:rounded-full lg:max-w-[350px] max-w-[800px] h-auto rounded-none object-cover"
             />
           </div>
 

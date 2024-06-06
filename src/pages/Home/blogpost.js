@@ -14,8 +14,8 @@ function BlogPost() {
         </h1>
       </div>
       <div className="bg-accent/20">
-        <div className="max-w-[1320px] flex flex-col sm:flex-row px-4 sm:px-12 py-5 sm:py-0">
-          <div className="text-left sm:w-1/2">
+        <div className="max-w-[1320px] flex flex-col md:flex-row px-4 sm:px-12 py-5 sm:py-0">
+          <div className="text-left md:w-1/2">
             <h1 className="text-[24px] sm:text-[30px] font-semibold">
               Find Cheap Flights and Transfer in Puerto Galera
             </h1>
@@ -27,7 +27,7 @@ function BlogPost() {
             </p>
           </div>
 
-          <div className="relative inline-block sm:w-1/2 mt-4 sm:mt-0 sm:ml-4">
+          <div className="relative inline-block md:w-1/2 mt-4 sm:mt-0 sm:ml-4">
             <img
               src={card}
               alt="image"
@@ -39,8 +39,8 @@ function BlogPost() {
           </div>
         </div>
         {/* card-2 */}
-        <div className="max-w-[1320px] flex flex-col sm:flex-row py-10 px-4 sm:px-12">
-          <div className="text-left sm:w-1/2">
+        <div className="max-w-[1320px] flex flex-col md:flex-row py-10 px-4 sm:px-12">
+          <div className="text-left md:w-1/2">
             <h1 className="text-[24px] sm:text-[30px] my-5 font-semibold">
               10 Tips to Get the Best Fishing Experience in Puerto Galera
             </h1>
@@ -52,7 +52,7 @@ function BlogPost() {
             </p>
           </div>
 
-          <div className="relative inline-block sm:w-1/2 mt-4 sm:mt-0 sm:ml-4">
+          <div className="relative inline-block md:w-1/2 mt-4 sm:mt-0 sm:ml-4">
             <img
               src={card1}
               alt="image"

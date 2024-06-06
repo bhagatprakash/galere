@@ -4,8 +4,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
+        bannerbg: "url('./assest/images/banner-baground.jpg')",
         banner: "url('./assest/images/text-image.jpg')",
-
+        textImage: "url('./assest/images/text-image.jpg')",
+        textImage2: "url('./assest/images/text-image2.jpg')",
         hight: "h-full",
       },
       boxShadow: {
