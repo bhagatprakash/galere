@@ -9,7 +9,7 @@ function Place() {
         <h1 className="text-[18px]  text-gray-600 text-left font-semibold ">
           WHAT IS THIS PLACE
         </h1>
-        <h1 className="text-[35px] text-left font-semibold ">
+        <h1 className="text-[35px] text-left font-medium font-sanss ">
           The Magic of Puerto Galera
         </h1>
       </div>
@@ -21,14 +21,15 @@ function Place() {
             <img
               src={place}
               alt="bannerImage"
-              className="lg:rounded-full lg:max-w-[350px] w-full sm:h-[400px] md:w-[900px] md:h-[500px]  lg:h-auto rounded-lg object-fit"
+              className="lg:rounded-full lg:max-w-[300px]  w-full sm:h-[400px] md:w-[900px] md:h-[500px]  lg:h-auto rounded-lg object-fit"
+              style={{ objectFit: "cover" }}
             />
           </div>
           <div className="md:col-span-2 my-10 flex flex-col justify-center">
-            <h1 className="text-[30px] font-bold my-5 text-left sm:text-center lg:text-left">
+            <h1 className="text-[30px] font-bold opacity-85 my-5 text-left sm:text-center lg:text-left">
               Real Estate Boom in The Last 10 Years
             </h1>
-            <p className="text-[18px] text-gray-500 text-left sm:text-center lg:text-left">
+            <p className="text-[17px] text-gray-500 text-left  lg:text-left">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -50,10 +51,10 @@ function Place() {
         <div className="max-w-[1320px] grid grid-cols-1 md:grid-cols-1 md:text-center md:justify-items-center  lg:grid-cols-3 py-5 px-5 sm:px-12 gap-5">
           {/* image */}
           <div className="md:col-span-2 my-10 flex flex-col justify-center">
-            <h1 className="text-[30px] font-bold my-5 text-left sm:text-center lg:text-left">
+            <h1 className="text-[30px] font-bold my-5 text-left sm:text-center lg:text-left opacity-85">
               The Perfect Lifestyle for You
             </h1>
-            <p className="text-[18px] text-gray-500 text-left sm:text-center lg:text-left">
+            <p className="text-[17px] text-gray-500 text-left  lg:text-left">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -72,7 +73,8 @@ function Place() {
             <img
               src={place1}
               alt="bannerImage"
-              className="lg:rounded-full lg:max-w-[350px] w-full sm:h-[400px] md:h-[500px] md:w-[900px] lg:h-auto rounded-lg object-fit"
+              className="lg:rounded-full lg:max-w-[300px] w-full sm:h-[400px] md:h-[500px] md:w-[900px] lg:h-auto rounded-lg object-fit"
+              style={{ objectFit: "cover" }}
             />
           </div>
         </div>
@@ -85,14 +87,15 @@ function Place() {
             <img
               src={place2}
               alt="bannerImage"
-              className="lg:rounded-full lg:max-w-[350px] w-full sm:h-[400px] md:h-[500px] md:w-[900px] lg:h-auto rounded-lg object-fit"
+              className="lg:rounded-full lg:max-w-[300px] w-full sm:h-[400px] md:h-[500px] md:w-[900px] lg:h-auto rounded-lg object-fit"
+              style={{ objectFit: "cover" }}
             />
           </div>
           <div className="md:col-span-2 my-10 flex flex-col justify-center">
-            <h1 className="text-[30px] font-bold my-5 text-left sm:text-center lg:text-left">
+            <h1 className="text-[30px] font-bold my-5 text-left sm:text-center lg:text-left opacity-85">
               Real Estate Boom in The Last 10 Years
             </h1>
-            <p className="text-[18px] text-gray-500 text-left sm:text-center lg:text-left">
+            <p className="text-[17px] text-gray-500 text-left  lg:text-left">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris

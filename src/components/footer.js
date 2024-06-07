@@ -7,7 +7,7 @@ function Footer() {
       <div className="mx-auto max-w-[1320px]">
         <div className="flex flex-col mx-auto sm:flex-row  justify-between">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 text-center md:text-left my-10 px-5 gap-6 ">
-            <div className="cursor-pointer text-white mx-auto ">
+            <div className="cursor-pointer text-white lg:mx-auto   ">
               <img
                 src={headerImage}
                 alt="blog img"
@@ -17,7 +17,7 @@ function Footer() {
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco
                 laboris nisi ut aliquip ex ea commodo consequat
               </p>
-              <div className="space-x-3 text-center lg:text-left py-3">
+              <div className="space-x-3 text-center lg:text-left  py-3">
                 <i className="text-[18px] p-2 fa-brands fa-whatsapp border rounded-[20%] bg-yellow-400 hover:bg-red-300 hover:text-white"></i>
                 <i className="text-[18px] p-2 fa-brands fa-facebook border rounded-[20%] bg-yellow-400 hover:bg-red-300 hover:text-white"></i>
                 <i className="text-[18px] p-2 fa-brands fa-twitter border rounded-[20%] bg-yellow-400 hover:bg-red-300 hover:text-white"></i>

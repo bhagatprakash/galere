@@ -8,11 +8,11 @@ import card4 from "../../assest/images/card-6.jpg";
 function Cards() {
   return (
     <div className="max-w-[1320px] mx-auto relative">
-      <div className="my-5 mx-10">
+      <div className="my-3 mx-10">
         <h1 className="text-[18px]  text-gray-600 text-left font-semibold ">
           PROPERTIES FOR RENT AND SELL
         </h1>
-        <h1 className="text-[35px] text-left font-semibold ">
+        <h1 className="text-[35px] text-left font-medium font-sanss">
           Our Most Recent Selection
         </h1>
       </div>
@@ -27,12 +27,12 @@ function Cards() {
                 className="w-full h-full object-cover hover:scale-125 duration-1000 rounded-t-lg content-fit"
                 style={{ objectFit: "cover" }}
               />
-              <span className="absolute top-0 right-0 bg-gray-500 rounded-[10px] opacity-80 m-2 p-2 text-[15px] font-semibold text-white">
+              <span className="absolute top-0 right-0 bg-gray-500 rounded-[10px] opacity-80 m-2 p-2 text-[15px] font-semibold text-white ">
                 For Sale
               </span>
             </div>
 
-            <h5 className="text-[22px] text-left font-bold bold my-5">
+            <h5 className="text-[22px] text-left font-bold bold my-5 opacity-90">
               Stunning Apartment With Sea Views
             </h5>
 
@@ -67,12 +67,12 @@ function Cards() {
                 className="w-full h-full object-cover hover:scale-125 duration-1000 rounded-t-lg"
                 style={{ objectFit: "cover" }}
               />
-              <span className="absolute top-0 right-0 bg-gray-500 rounded-[10px] opacity-80 m-2 p-2 text-[15px] font-semibold text-white">
+              <span className="absolute top-0 right-0 bg-gray-600 rounded-[10px] opacity-80 m-2 p-2 text-[15px] font-semibold text-white">
                 For Sale
               </span>
             </div>
 
-            <h5 className="text-[23px] text-left font-bold bold my-5">
+            <h5 className="text-[23px] text-left font-bold bold my-5 opacity-90">
               Incredible Villa With Sea Views
             </h5>
 
@@ -108,11 +108,11 @@ function Cards() {
                 style={{ objectFit: "cover" }}
               />
               <span className="absolute top-0 right-0 bg-gray-500 rounded-[10px] opacity-80 m-2 p-2 text-[15px] font-semibold text-white">
-                For Sale
+                For Rent
               </span>
             </div>
 
-            <h5 className="text-[23px] text-left font-bold bold my-5">
+            <h5 className="text-[23px] text-left font-bold bold my-5 opacity-90">
               Beautiful New Villa in the Beach
             </h5>
 
@@ -148,11 +148,11 @@ function Cards() {
                 style={{ objectFit: "cover" }}
               />
               <span className="absolute top-0 right-0 bg-gray-500 rounded-[10px] opacity-80 m-2 p-2 text-[15px] font-semibold text-white">
-                For Sale
+                For Rent
               </span>
             </div>
 
-            <h5 className="text-[23px] text-left font-bold bold my-5">
+            <h5 className="text-[23px] text-left font-bold bold my-5 opacity-90">
               Apartment With Private Beach and Bar
             </h5>
 
@@ -188,11 +188,11 @@ function Cards() {
                 style={{ objectFit: "cover" }}
               />
               <span className="absolute top-0 right-0 bg-gray-500 rounded-[10px] opacity-80 m-2 p-2 text-[15px] font-semibold text-white">
-                For Sale
+                For Rent
               </span>
             </div>
 
-            <h5 className="text-[23px] text-left font-bold bold my-5">
+            <h5 className="text-[23px] text-left font-bold bold my-5 opacity-90">
               Floating Villa That You Will Not Forget
             </h5>
 
@@ -232,7 +232,7 @@ function Cards() {
               </span>
             </div>
 
-            <h5 className="text-[23px] text-left font-bold bold my-5">
+            <h5 className="text-[23px] text-left font-bold bold my-5 opacity-90">
               Beautiful First Line Apartment in Holend
             </h5>
 

@@ -18,3 +18,14 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+/* @media only screen and (min-width: 767px) and (max-width: 996px) {
+  body {
+    col-md-2
+  }
+} */
+.img-hover:hover {
+  transform: scale(1.05); /* Scales the image up by 5% */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+  opacity: 0.9; /* Slightly reduces the opacity */
+}

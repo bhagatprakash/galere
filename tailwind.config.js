@@ -19,6 +19,9 @@ module.exports = {
       colors: {
         bgColors: "#12486b",
       },
+      fontFamily: {
+        sanss: ['"Montserrat Alternates"', "sans-serif"],
+      },
     },
   },
   safelist: ["container"],

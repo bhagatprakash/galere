@@ -42,7 +42,7 @@ function Header() {
               href="#"
               className="block   text-[18px]  px-3 py-3  font-semibold text-center"
             >
-              Home<i class="fa-solid fa-angle-down mx-2"></i>
+              Home
             </a>
             <a
               href="#"
@@ -54,13 +54,13 @@ function Header() {
               href="#"
               className="block   px-3 py-3 text-[17px]  font-semibold text-center"
             >
-              Properties<i class="fa-solid fa-angle-down mx-2"></i>
+              Properties
             </a>
             <a
               href="#"
               className="block  px-3 py-3 text-[17px]  font-semibold   text-center "
             >
-              Blogs<i class="fa-solid fa-angle-down mx-2"></i>
+              Blogs
             </a>
             <a
               href="#"
