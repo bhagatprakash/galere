@@ -1,6 +1,5 @@
 import React from "react";
-import card from "../../assest/images/fcard.jpg";
-import card1 from "../../assest/images/fcard-2.jpg";
+import { cardData } from "../../assest/data/blogdata";
 
 function BlogPost() {
   return (
@@ -14,57 +13,33 @@ function BlogPost() {
         </h1>
       </div>
       <div className="bg-accent/20">
-        <div className="max-w-[1320px] flex flex-col md:flex-row px-4 sm:px-12 py-5 sm:py-0">
-          <div className="text-left md:w-1/2">
-            <h1 className="text-[24px] sm:text-[30px] font-semibold opacity-90">
-              Find Cheap Flights and Transfer in Puerto Galera
-            </h1>
-            <p className="text-[16px] sm:text-[18px] text-gray-500">
-              Aliquet donec cras amet orci in in neque. Ut sed diam quis
-              consectetur purus lorem eu, sit. Aliquam eget arcu sed urna
-              feugiat. In integer nisl at dui malesuada. Diam pellentesque
-              lobortis elementum lacus.
-            </p>
-          </div>
+        {cardData.map((card, index) => (
+          <div
+            key={index}
+            className="max-w-[1320px] flex flex-col md:flex-row px-4 sm:px-12 py-5 sm:py-0"
+          >
+            <div className="text-left md:w-1/2">
+              <h1 className="text-[24px] sm:text-[30px] font-semibold opacity-90">
+                {card.title}
+              </h1>
+              <p className="text-[16px] sm:text-[18px] text-gray-500">
+                {card.description}
+              </p>
+            </div>
 
-          <div className="relative inline-block md:w-1/2 mt-4 sm:mt-40px sm:ml-4">
-            <img
-              src={card}
-              alt="image"
-              className="rounded-[20px] object-cover w-full h-[300px]"
-              style={{ objectFit: "cover" }}
-            />
-            <span className="absolute bottom-0 right-0 mb-2 mr-2 bg-gray-200 p-2 w-[120px] rounded">
-              5 min Read
-            </span>
+            <div className="relative inline-block md:w-1/2 mt-4 sm:mt-40px sm:ml-4">
+              <img
+                src={card.imgSrc}
+                alt={card.altText}
+                className="rounded-[20px] object-cover w-full h-[300px]"
+                style={{ objectFit: "cover" }}
+              />
+              <span className="absolute bottom-0 right-0 mb-2 mr-2 bg-gray-200 p-2 w-[120px] rounded">
+                {card.readTime}
+              </span>
+            </div>
           </div>
-        </div>
-        {/* card-2 */}
-        <div className="max-w-[1320px] flex flex-col md:flex-row py-10 px-4 sm:px-12">
-          <div className="text-left md:w-1/2">
-            <h1 className="text-[24px] sm:text-[30px] my-5 font-semibold opacity-90">
-              10 Tips to Get the Best Fishing Experience in Puerto Galera
-            </h1>
-            <p className="text-[16px] sm:text-[18px] text-gray-500">
-              Aliquet donec cras amet orci in in neque. Ut sed diam quis
-              consectetur purus lorem eu, sit. Aliquam eget arcu sed urna
-              feugiat. In integer nisl at dui malesuada. Diam pellentesque
-              lobortis elementum lacus.
-            </p>
-          </div>
-
-          <div className="relative inline-block md:w-1/2 mt-4 sm:mt-40px sm:ml-4">
-            <img
-              src={card1}
-              alt="image"
-              className="rounded-[20px] object-cover w-full h-[300px]"
-              style={{ objectFit: "cover" }}
-            />
-            <span className="absolute bottom-0 right-0 mb-2 mr-2 bg-gray-200 p-2 w-[120px] rounded">
-              5 min Read
-            </span>
-          </div>
-        </div>
+        ))}
       </div>
     </div>
   );

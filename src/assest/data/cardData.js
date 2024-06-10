@@ -1,63 +1,68 @@
-import card1 from "../../assest/images/card-1.jpg";
-import card2 from "../../assest/images/card-3.jpg";
-import card3 from "../../assest/images/card-4.jpg";
-import card4 from "../../assest/images/card-5.jpg";
-import card5 from "../../assest/images/card-6.jpg";
-import card6 from "../../assest/images/card-1.jpg";
+import card from "../../assest/images/card-1.jpg";
+import card1 from "../../assest/images/card-3.jpg";
+import card2 from "../../assest/images/card-4.jpg";
+import card3 from "../../assest/images/card-5.jpg";
+import card4 from "../../assest/images/card-6.jpg";
 
-export const FetureData = [
+export const cardData = [
   {
-    image: card1,
-    type: "Riverview Rida",
-    price: " $15000.00",
-    location: "Gloria del Dorada, Galera.",
-    bedrooms: " 5 Beds",
-    bathrooms: "3 Baths",
-    squre: "1930 SqFt",
-  },
-  {
-    image: card2,
-    type: "Dream Town",
-    price: "$12000.00",
-    location: "Mirador de la Gloria, Lombok.",
-    bedrooms: " 3 Beds",
-    bathrooms: "3 Baths",
-    squre: "960 SqFt",
-  },
-  {
-    image: card3,
-    type: "My Seattle",
-    price: "$12000.00",
-    location: "Moscatel de las Flores, Galera",
-    bedrooms: " 3 Beds",
-    bathrooms: "3 Baths",
-    squre: "960 SqFt",
-  },
-  {
-    image: card4,
-    type: "Star Island",
-    price: "$650 / Month",
-    location: "Tributo de la Gracia, Galera.",
-    bedrooms: " 5 Beds",
-    bathrooms: "3 Baths",
-    squre: "1930 SqFt",
-  },
-  {
-    image: card5,
-    type: "Star Island",
-    price: "$650 / Month",
+    imgSrc: card,
+    status: "For Sale",
+    title: "Stunning Apartment With Sea Views",
     location: "Isla Negros Dumaguete, Galera.",
-    bedrooms: " 5 Beds",
-    bathrooms: "3 Baths",
-    squre: "1930 SqFt",
+    price: "5,000,000",
+    priceSuffix: "",
+    beds: 5,
+    baths: 6,
   },
   {
-    image: card6,
-    type: "Star Island",
-    price: "$650 / Month",
+    imgSrc: card1,
+    status: "For Sale",
+    title: "Incredible Villa With Sea Views",
     location: "Flores de Verano, Galera.",
-    bedrooms: " 5 Beds",
-    bathrooms: "3 Baths",
-    squre: "1930 SqFt",
+    price: "900",
+    priceSuffix: "/Month",
+    beds: 5,
+    baths: 6,
+  },
+  {
+    imgSrc: card3,
+    status: "For Rent",
+    title: "Beautiful New Villa in the Beach",
+    location: "Tributo de la Gracia, Galera.",
+    price: "5,000,000",
+    priceSuffix: "/Month",
+    beds: 5,
+    baths: 6,
+  },
+  {
+    imgSrc: card2,
+    status: "For Rent",
+    title: "Apartment With Private Beach and Bar",
+    location: "Gloria del Dorada, Galera.",
+    price: "1,200",
+    priceSuffix: "",
+    beds: 5,
+    baths: 6,
+  },
+  {
+    imgSrc: card4,
+    status: "For Rent",
+    title: "Floating Villa That You Will Not Forget",
+    location: "Mirador de la Gloria, Lombok.",
+    price: "3,500,000",
+    priceSuffix: "",
+    beds: 5,
+    baths: 7,
+  },
+  {
+    imgSrc: card,
+    status: "For Sale",
+    title: "Beautiful First Line Apartment in Holend",
+    location: "Moscatel de las Flores, Galera.",
+    price: "120,000",
+    priceSuffix: "",
+    beds: 3,
+    baths: 3,
   },
 ];
