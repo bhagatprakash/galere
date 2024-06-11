@@ -1,5 +1,6 @@
 import React from "react";
 import headerImage from "../assest/images/header image.svg";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 function Footer() {
   return (
@@ -19,6 +20,7 @@ function Footer() {
               </p>
               <div className="space-x-3 text-center lg:text-left  py-3">
                 <i className="text-[18px] p-2 fa-brands fa-whatsapp border rounded-[20%] bg-yellow-400 hover:bg-red-300 hover:text-white"></i>
+
                 <i className="text-[18px] p-2 fa-brands fa-facebook border rounded-[20%] bg-yellow-400 hover:bg-red-300 hover:text-white"></i>
                 <i className="text-[18px] p-2 fa-brands fa-twitter border rounded-[20%] bg-yellow-400 hover:bg-red-300 hover:text-white"></i>
                 <i className="text-[18px] p-2 fa-brands fa-youtube border rounded-[20%] bg-yellow-400 hover:bg-red-300 hover:text-white"></i>

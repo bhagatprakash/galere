@@ -27,10 +27,10 @@ function Cards() {
                   {card.status}
                 </span>
               </div>
-              <h5 className="text-[23px] text-left font-bold my-5 opacity-90">
+              <h5 className="text-[20px] text-left font-bold my-3 opacity-90">
                 {card.title}
               </h5>
-              <p className="text-[17px] text-left my-5">
+              <p className="text-[17px] text-left my-3">
                 <i className="fa-solid fa-location-dot text-gray-500 mx-2"></i>
                 {card.location}
               </p>

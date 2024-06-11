@@ -8,7 +8,7 @@ export const cardData = [
   {
     imgSrc: card,
     status: "For Sale",
-    title: "Stunning Apartment With Sea Views",
+    title: "Stunning Apartment Sea Views",
     location: "Isla Negros Dumaguete, Galera.",
     price: "5,000,000",
     priceSuffix: "",

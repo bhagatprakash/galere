@@ -22,7 +22,7 @@ function BlogPost() {
               <h1 className="text-[24px] sm:text-[30px] font-semibold opacity-90">
                 {card.title}
               </h1>
-              <p className="text-[16px] sm:text-[18px] text-gray-500">
+              <p className="text-[16px] sm:text-[18px] text-gray-500 my-5">
                 {card.description}
               </p>
             </div>
