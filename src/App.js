@@ -7,11 +7,16 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 // pages
 import Home from "./pages/Home";
+import Properties from "./pages/Home/properties";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+  },
+  {
+    path: "/proptype_sectoin",
+    element: <Properties />,
   },
 ]);
 

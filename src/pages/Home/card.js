@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { cardData } from "../../assest/data/cardData";
 
 function Cards() {
@@ -16,13 +17,15 @@ function Cards() {
         <div className="max-w-[1320px] grid grid-cols-1 gap-6 sm:text-center md:grid-cols-2 lg:grid-cols-3 px-4 sm:px-12">
           {cardData.map((card, index) => (
             <div key={index} className="my-6 rounded-lg">
-              <div className="lg:h-[225px] h-[350px] overflow-hidden relative rounded-lg">
-                <img
-                  src={card.imgSrc}
-                  alt="card"
-                  className="w-full h-full object-cover hover:scale-125 duration-1000 rounded-t-lg"
-                  style={{ objectFit: "cover" }}
-                />
+              <div className="lg:h-[240px] h-[350px] overflow-hidden relative rounded-lg">
+                <Link to={"/proptype_sectoin"}>
+                  <img
+                    src={card.imgSrc}
+                    alt="card"
+                    className="w-full h-full object-cover hover:scale-125 duration-1000 rounded-t-lg"
+                    style={{ objectFit: "cover" }}
+                  />
+                </Link>
                 <span className="absolute top-0 right-0 bg-gray-500 rounded-[10px] opacity-80 m-2 p-2 text-[15px] font-semibold text-white">
                   {card.status}
                 </span>
@@ -37,7 +40,10 @@ function Cards() {
               <div className="pt-4 pb-2 flex justify-between items-center mr-2">
                 <span className="inline-block text-[22px] font-bold text-left">
                   <span className="text-yellow-400 font-extrabold mx-2">$</span>
-                  {card.price} {card.priceSuffix}
+                  {card.price}{" "}
+                  <span className="text-yellow-400 text-[18px] ">
+                    {card.priceSuffix}
+                  </span>
                 </span>
                 <div className="flex space-x-4">
                   <span className="inline-block text-[15px] font-semibold text-gray-800">

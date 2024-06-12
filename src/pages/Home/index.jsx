@@ -6,6 +6,7 @@ import Subscribe from "./Subscribe";
 import Testimonials from "./testmonial";
 import BlogPost from "./blogpost";
 
+
 function Index() {
   return (
     <div>
@@ -21,6 +22,7 @@ function Index() {
       <Testimonials />
       {/* blogCard  */}
       <BlogPost />
+  
     </div>
   );
 }
