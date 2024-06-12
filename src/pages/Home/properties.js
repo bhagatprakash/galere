@@ -49,7 +49,7 @@ function Properties() {
           </div>
         </div>
 
-        <div className="bg-accent/20 my-5">
+        <div className="bg-accent/20 my-10">
           <div className=" grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3   gap-5">
             <div className=" md:col-span-1">
               <h1 className="text-[18px] text-left">Reference</h1>
