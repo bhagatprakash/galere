@@ -31,8 +31,7 @@ function BlogPost() {
               <img
                 src={card.imgSrc}
                 alt={card.altText}
-                className="rounded-[20px] object-cover w-full h-[300px]"
-                style={{ objectFit: "cover" }}
+                className="rounded-[20px] object-cover w-full h-[300px] object-fit"
               />
               <span className="absolute bottom-0 right-0 mb-2 mr-2 bg-gray-200 p-2 w-[120px] rounded">
                 {card.readTime}

@@ -34,8 +34,7 @@ function Banner() {
           <img
             src={BannerImage2}
             alt="backgroundImage"
-            className="absolute top-0 left-0 w-full h-full lg:rounded-full lg:max-w-[350px] sm:h-[400px] md:w-[900px] md:h-[500px] lg:h-auto rounded-lg img-hover"
-            style={{ objectFit: "cover", zIndex: 0 }}
+            className="absolute top-0 left-0 w-full h-full lg:rounded-full lg:max-w-[350px] sm:h-[400px] md:w-[900px] md:h-[500px] lg:h-auto rounded-lg img-hover object-cover z-0"
           />
 
           <div className="absolute top-[-25px] right-0   p-4 z-10 flex flex-col items-start ">
@@ -52,7 +51,7 @@ function Banner() {
           <img
             src={BannerImage}
             alt="bannerImage"
-            className="relative lg:rounded-full lg:max-w-[350px] w-full sm:h-[400px] sm:w-[600px]  md:w-[900px] md:h-[500px] lg:h-auto rounded-lg"
+            className="relative lg:rounded-full lg:max-w-[350px] w-full sm:h-[400px] sm:w-[600px]  md:w-[900px] md:h-[500px] lg:h-auto rounded-lg object-cover"
             style={{
               objectFit: "cover",
               zIndex: 1,

@@ -6,23 +6,7 @@ import profile from "../../assest/images/profile-1.png";
 import profile1 from "../../assest/images/profile.png";
 import profile2 from "../../assest/images/profile-3.png";
 import profile3 from "../../assest/images/profile-4.png";
-
-const testimonials = [
-  {
-    text: "Joe Smith",
-    author:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing.",
-    position: "CEO at Homeland",
-    rating: 5,
-  },
-  {
-    text: "Ana Maria",
-    author:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing.",
-    position: "CEO at Homeland",
-    rating: 5,
-  },
-];
+import { testimonials } from "../../assest/data/testmonialData";
 
 function Testimonials() {
   const settings = {
@@ -60,10 +44,18 @@ function Testimonials() {
           <div className="w-full lg:w-1/3 flex flex-col sm:flex-row sm:justify-center sm:items-center sm:flex-wrap gap-5 mb-5 sm:mb-0">
             <div className="flex flex-col-2 items-center justify-center sm:flex-cols gap-5 mb-5">
               <div className="bg-blue-500 rounded-[30px] w-[40%] sm:w-[150px] h-[150px] flex items-center justify-center overflow-hidden">
-                <img src={profile} alt="Testimonials" className="h-[90%]" />
+                <img
+                  src={profile}
+                  alt="Testimonials"
+                  className="h-[90%] object-cover"
+                />
               </div>
               <div className="bg-yellow-500 rounded-[30px] w-[40%] text-center sm:w-[150px] h-[150px] flex items-center justify-center overflow-hidden">
-                <img src={profile1} alt="Testimonials" className="h-[90%]" />
+                <img
+                  src={profile1}
+                  alt="Testimonials"
+                  className="h-[90%] object-cover object-fit"
+                />
               </div>
             </div>
             <div className="flex flex-col-2 items-center justify-center sm:flex-cols gap-5">
@@ -71,14 +63,14 @@ function Testimonials() {
                 <img
                   src={profile3}
                   alt="Testimonials"
-                  className="h-[95%] my-1 mx-3"
+                  className="h-[95%] my-1 mx-3 object-cover object-fit"
                 />
               </div>
               <div className="bg-yellow-500 rounded-[30px] w-[40%] sm:w-[150px] h-[150px] flex items-center justify-center overflow-hidden">
                 <img
                   src={profile2}
                   alt="Testimonials"
-                  className="h-[95%] my-1"
+                  className="h-[95%] my-1 object-cover  object-fit"
                 />
               </div>
             </div>

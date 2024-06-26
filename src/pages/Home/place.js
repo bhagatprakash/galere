@@ -19,8 +19,7 @@ function Place() {
                 <img
                   src={card.image}
                   alt="bannerImage"
-                  className="lg:rounded-full lg:max-w-[300px] w-full sm:h-[400px] md:w-[900px] md:h-[500px] lg:h-auto rounded-lg object-fit"
-                  style={{ objectFit: "cover" }}
+                  className="lg:rounded-full lg:max-w-[300px] w-full sm:h-[400px] md:w-[900px] md:h-[500px] lg:h-auto rounded-lg object-fit object-cover"
                 />
               </div>
             )}
@@ -41,8 +40,7 @@ function Place() {
                 <img
                   src={card.image}
                   alt="bannerImage"
-                  className="lg:rounded-full lg:max-w-[300px] w-full sm:h-[400px] md:h-[500px] md:w-[900px] lg:h-auto rounded-lg object-fit"
-                  style={{ objectFit: "cover" }}
+                  className="lg:rounded-full lg:max-w-[300px] w-full sm:h-[400px] md:h-[500px] md:w-[900px] lg:h-auto rounded-lg object-fit object-cover"
                 />
               </div>
             )}

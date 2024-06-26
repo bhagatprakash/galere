@@ -333,7 +333,7 @@ function Properties() {
             <img
               src={location}
               alt="propertyImage"
-              className="w-full h-[550px] rounded-lg"
+              className="w-full h-[550px] rounded-lg object-cover "
             />
           </div>
         </div>

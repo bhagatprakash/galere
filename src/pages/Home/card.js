@@ -22,8 +22,7 @@ function Cards() {
                   <img
                     src={card.imgSrc}
                     alt="card"
-                    className="w-full h-full object-cover hover:scale-125 duration-1000 rounded-t-lg"
-                    style={{ objectFit: "cover" }}
+                    className="w-full h-full  object-cover hover:scale-125 duration-1000 rounded-t-lg"
                   />
                 </Link>
                 <span className="absolute top-0 right-0 bg-gray-500 rounded-[10px] opacity-80 m-2 p-2 text-[15px] font-semibold text-white">

@@ -18,7 +18,7 @@ function Header() {
             <div>
               <img
                 src={HeaderImage}
-                className="h-[40px] my-3"
+                className="h-[40px] my-3  object-cover object-fit"
                 alt="header-image"
               />
             </div>
